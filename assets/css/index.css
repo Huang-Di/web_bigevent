@@ -1,0 +1,63 @@
+html,
+body {
+   
+    height: 100%;
+    width: 100%;
+    background: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091306%2Fv1qnenevdqcv1qnenevdqc.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657109713&t=7ede57bdb44cb38527821dcac7dab542);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.layui-nav-item .iconfont {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+iframe {
+    width: 1680px;
+    height: 1080px;
+}
+
+a {
+    transition: none;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #009688;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
