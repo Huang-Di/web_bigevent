@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+   
+    height: 100%;
+    width: 100%;
+    background: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091306%2Fv1qnenevdqcv1qnenevdqc.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657109713&t=7ede57bdb44cb38527821dcac7dab542);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/* 版心 */
+.main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* 登录注册页面 */
+.loginAndreg {
+    width: 410px;
+    height: 310px;
+    background-color: rgba(136, 105, 105, 0.259);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_box {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
+.reg_box {
+    display: none;
+}
+
+.loginAndreg {
+    padding: 0 30px;
+}
+
+.layui-btn {
+    background-color: rgb(192, 193, 255);
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item .iconfont {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 5px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
+
+
+
+
