@@ -14,7 +14,7 @@ $(function () {
                 }
                 //    调用模板引擎,渲染分类下拉菜单
                 let htmlStr = template('tpl_cate', res)
-                $('[name=cat_id]').html(htmlStr)
+                $('[name=cate_id]').html(htmlStr)
                 //   一定要去调用render去渲染
                 form.render()
             }
@@ -32,7 +32,7 @@ $(function () {
 
     // 3. 初始化裁剪区域
     $image.cropper(options)
-
+    $image.attr("crossOrigin",'anonymous')
     //   为选择封面的按钮绑定点击事件
     $('#btn_image').on('click', function () {
         $('#coverFile').click()
@@ -101,7 +101,7 @@ $(function () {
                 }
                 layer.msg('发布文章成功')
                 // 跳转到文章列表页面
-                location.href = './article/art_list.html'
+                location.href = '../article/art_list.html'
             }
           })
       }
